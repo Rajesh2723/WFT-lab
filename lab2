@@ -45,3 +45,62 @@
         </table>
     </body>
 </html>
+############# form of the lab1
+<!DOCTYPE html>
+<html>
+    <body>
+        <center>
+            <h1> A Complete form Example </h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Name :</td>
+                        <td><input type="text" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>USN :</td>
+                        <td><input type="text" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile :</td>
+                        <td><input type="text" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="text" size="25"></td>
+                    </tr>
+                </table>
+                <table border="1">
+                    <tr>
+                        <td colspan="5"> Courses List </td>
+                    </tr>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Course COde</th>
+                        <th>Course Name</th>
+                        <th>Registration</th>
+                        <th>Fees</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>20CSE61</td>
+                        <td>Web</td>
+                        <td>Yes</td>
+                        <td><input type="text" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>20CSE62</td>
+                        <td>CN</td>
+                        <td>No</td>
+                        <td><input type="text" size="25"></td>
+                    </tr>
+                </table>
+                <p><input type="radio" size="25">CSE<input type="radio" size="25">ISE<input type="radio" size="25">ECE<input type="radio" size="25">EEE</p>
+                <input type="submit" value="SUBMIT">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="RESET">
+            </form>
+        </center>
+    </body>
+</html>

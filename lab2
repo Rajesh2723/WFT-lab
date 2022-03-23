@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <table style="width:10%" border="1000">
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>place</th>
+                <td rowspan="3"></td>
+            </tr>
+            <tr> 
+                <td> Rakesh</td>
+                <td>A</td>
+                <td>bellary</td>
+                <td rowspan="3">rowspan </td>
+            </tr>
+        
+        <td colspan="3">beg of the table</td>
+        </table>
+    </body>
+</html>
+#####################
+<html>
+    
+        <body style="background-color:red;">
+            
+<a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_td_rowspan">This is the link</a>
+<centre>
+<img src="C:\Users\Student\Desktop\ms dhoni.jpeg" alt="Trulli" width="400" height="400">
+</centre>
+        <table style="width:10%" border="1">
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th><i><b>place</b></i></th>
+                <td rowspan="3"></td>
+            </tr>
+            <tr> 
+                <td> Rakesh</td>
+                <td>A</td>
+                <td>bellary</td>
+                <td rowspan="3">rowspan </td>
+            </tr>
+        
+        <td colspan="3">beg of the table</td>
+        </table>
+    </body>
+</html>

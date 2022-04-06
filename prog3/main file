@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Home page</title>
+</head>
+<frameset rows="25, 75">
+<frame src="home.html" name="head_page">
+<frameset cols="10, 90">
+<frame src="left.html" name="dept_page">
+<frame src="center.html" name="des_page">
+</frameset> 
+</frameset>
+</html>

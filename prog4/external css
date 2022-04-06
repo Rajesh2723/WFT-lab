@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <link rel=""stylesheet" href="external.css" >
+    </head>
+    <ol>
+        <li>Food</li>
+        <ol>
+            <li>dosa</li>
+            <li>chatni</li>
+            </ol>
+            <ol> </ol>
+            <ol> ingredient in dosa</ol>
+            <li> char</li>
+            <li>powder</li>
+        </ol>
+    </ol>
+</html>
+
+
+
+
+body{
+    background-color:red;
+}
+ol{list-style-type:upper-roman;}
+            ol ol{list-style-type:decimal;}
+            ol ol ol{list-style-type:upper-alpha}

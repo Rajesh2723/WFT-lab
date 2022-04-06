@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>4a </title>
+<style type="text/css">
+*{ margin:0.3 in;
+     padding:0.5 in;
+     background color:blue;
+     border style:soild;
+     text-decoration:underline;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size=25px;
+    font-family=Verdana;
+}
+p.one{margin:25 px;
+     padding:2 px ;
+     background-color:blue;
+     border-style:dotted;
+     text-decoration:underline;
+     font-family: Arial;
+}
+#two{margin:30px;
+     padding:20 px;
+     background-color:green;
+     border-style:dotted;
+     text-decoration:underline;
+     font-family:Verdana;
+     font-size: 20 px;
+     font- color:"orange";
+}
+.three{margin:30px;
+     padding:20 px;
+     background-color:pink;
+     border-style:double;
+     text-decoration:underline;
+     font-family:Verdana;
+     font-size: 20 px;
+     font- color:"orange";
+}
+</style>
+</head>
+
+<body>
+<h1> Lab Program</h1>
+<p class="one">
+HAPPY NEW YEAR</p>
+
+<br>
+<p id="two">
+Welcome 2022</p>
+<p class="three">
+How are you
+</p>
+<br>
+<p>
+<a href="uni.html">universal selector</a></p>
+</body>
+</html>

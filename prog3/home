@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<table border="border"style="width:100%">
+<tr>
+<th><img src="nhcelogo.jpg" style="width:100px;height:150px;"> </th>
+<th colspan="4",align="center",width="100pt">NEW HORIZON COLLEGE OF ENGINEERING</th>
+</tr>
+<tr>
+<th><a href="center.html" target="des_page">HOME</a></th>
+<th><a href="login.html" target="des_page">LOGIN</a></th>
+<th><a href="registration.html" target="des_page">REGISTRATION</th>
+<th><a href="cata.html" target="des_page">CATALOUGE</a></th>
+<th>CART</th>
+</tr>
+</table>
+</body>
+</html>

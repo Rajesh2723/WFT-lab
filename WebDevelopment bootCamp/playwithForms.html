@@ -1,0 +1,43 @@
+<html>
+<head>
+    <body>
+         <form action="/birds">
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree for everything</label>
+            <p>
+                <label for="xs">XS:</label>
+                <input type="radio" name="size" id="xs" value="Rajesh">
+                <label for="s">S</label>   //id to match with the label and to get for it
+                <input type="radio" name="size" id="s"> name to select the any single element in the radio
+                <label for="M">MEDIUM</label>
+                <input type="radio" name="size" id="M">
+            </p>
+            <p>
+                <select name="cars" id="size1">
+                    <option value="vegetarian">--please select an option</option>
+                    <option value="good " selected>first</option>
+                </select>
+            </p>
+            <button>Submit</button>
+            <p>
+                <label for="cheese">Amount of cheese</label>
+                <input type="range"  id="cheese" min="1" max="10" name="cheese_level"> //name will be visible in link which we send the data
+            </p>
+            <button>Submit</button>
+            <label for="good"></label>
+            <textarea name="area1" id="good" cols="30" rows="10"></textarea>
+         </form>
+         <form action="/search">
+            <label for="chess">Enter the first name</label>
+            <input type="text" name="first_name" id="chess" required>//to nessesarily fill data in the label
+         <label for="username">Username</label>
+         <input type="text" name="username" id="username" minLength="5" maxlength="20">//set the length of the password
+            <button>Submit</button>
+            <p>
+                <input type="email" required>
+                <button>Submit</button>
+            </p>
+         </form>
+    </body>
+</head>
+</html>

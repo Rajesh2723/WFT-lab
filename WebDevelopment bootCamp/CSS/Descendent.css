@@ -20,3 +20,31 @@ header a{
 <p id="dislikes">
   I hate eating <a href="/pickles">pickles</a> and <a href="/beets">beets</a>
 </p>
+
+////
+.tag{
+    background-color: green;
+}
+li span{
+    color:red;
+}
+input + button{
+    background-color: pink;
+}
+h1+li{
+    font-size: 20px;
+    background-color: magenta;
+}
+input>button{
+    color: aqua;
+}
+input[type="text"]{
+    color:green;
+}
+h1[type="password"]{
+    background-color: red;
+}
+a[href*="google"]{
+    color:magenta;
+}
+

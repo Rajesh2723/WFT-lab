@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red; 
+}
+h1{
+    background-color: aqua;
+    width: 100px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+#one{
+    background-color: green;
+    border-width: 10px;
+    border-color:black;
+    border-style:solid;
+    box-sizing: border-box;
+}
+#two{
+    background-color: red;
+    border-color:gainsboro;
+    border-width:3px;
+    border-style:dashed;
+}
+#three{
+    background-color: green;
+    
+    border:9px solid black;
+    border-left-style:dotted;
+    border-radius:  50%;
+}
+ 
+button{
+    padding:40px 60px 40px 20px;
+}

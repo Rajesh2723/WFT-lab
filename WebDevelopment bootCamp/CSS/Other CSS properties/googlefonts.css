@@ -1,0 +1,25 @@
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size:30px;
+}
+main{
+    width:60%;
+    margin:0 auto;
+}
+/* html file of googlefonts */
+/* <html>
+<head>
+    <title>Google fonts</title>
+    <link rel="stylesheet" href="googelfonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<main>
+    
+</main>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates omnis molestiae alias molestias laboriosam aliquam, perspiciatis qui excepturi dolorum quis quod quo eius consectetur consequuntur recusandae cum. Sit, excepturi!
+    Magnam voluptatum eius autem veniam reprehenderit accusamus beatae molestias, fuga culpa iure deserunt? Dicta mollitia vero adipisci, odio nobis provident ipsa deserunt eius! Debitis nostrum maxime tempora minus culpa necessitatibus.</h1>
+</body>
+</html> */

@@ -1,0 +1,40 @@
+body{
+    font-family : 'Roboto', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-color: #151b29;
+}
+button{
+    background:none;
+    color:orangered;
+    border:2px solid;
+    padding:1em 2em;
+    font-size:1em;
+    transition: all 0.5s;
+}
+button:hover{
+    border-color:#f1ff5c;
+    box-shadow:0 0.5em 0.5em -0.4em #f1ff5c;
+    transform:translateY(-0.25em);
+    cursor: pointer;
+}
+/* html document */
+<html>
+<head>
+    <title>Fancy button effect</title>
+    
+    <!-- <link  href=""><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="facnyhovercss.css">
+</head>
+<body>
+    
+    <button>Hover me</button>
+
+</body>
+</html>

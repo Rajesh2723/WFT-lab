@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" href="flexcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+</head>
+
+<h1>lets play with flex box</h1>
+<body>
+    <section id="container">
+        <div style="background-color: #80fff8;"></div>
+        <div style="background-color: aqua;"></div>
+        <div style="background-color: blue;"></div>
+        <div style="background-color: blueviolet;"></div>
+    </section>
+</body>
+</html>
+//css file for that html
+#container{
+    background-color: #003049;
+    border:5px solid gray;
+    margin:0 auto;
+    width: 90%;
+    height:300px;
+    
+    display:flex;
+    /* flex-direction: row;
+    flex-direction:row-reverse; */
+    flex-direction:row;
+    /* justify-content:flex-start;
+    justify-content:flex-end;
+    justify-content:center; */
+    /* justify-content:space-around; */
+    /* justify-content:space-evenly; */
+    /* justify-content:flex-end; */
+    /* background-color: none; */
+    flex-wrap:wrap-reverse;
+    flex-wrap:nowrap;
+    /* flex-wrap:wrap; */
+}
+body{
+    font-family: 'Sassy Frass', cursive;
+}
+h1{
+    text-align:center;
+}
+#container div{
+    width: 100px;
+    height:100px;
+}

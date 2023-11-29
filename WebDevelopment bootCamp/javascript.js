@@ -57,7 +57,17 @@ const restaurant = {
 //YOUR CODE GOES DOWN HERE:
  const fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
 
+Day 2...Loops //for ,while,
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
 
+  
 
  
  
